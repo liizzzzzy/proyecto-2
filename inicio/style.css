@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  color: #ffffff;
+}
+
+.header {
+  background-image: url(imagenes//FONDO\ MIENTRAS.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 101%;
+  height: 700px;
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.botom-1 {
+  position: absolute;
+  background-color: #11edf5;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+.botom-1:hover {
+  background-color: #15a79b;
+}
+
+.section-1 {
+  background-color: #032e25;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  padding: 80px;
+  margin-left: 0px;
+}
+
+.titulos {
+  position: absolute;
+  top: 84px;
+  left: 700px;
+  width: 600px;
+  font-size: 23px;
+}
+
+.biografia {
+  font-size: 50px;
+}
+
+.iconos {
+  display: flex;
+  position: absolute;
+  top: 680px;
+  left: 670px;
+  width: 400px;
+  height: 0px;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.section-2 {
+  background-color: rgb(3, 12, 14);
+  margin: 0 auto;
+  padding: 80px;
+  left: 85px;
+  right: 80px;
+}
+
+.titulos2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+}
+
+.iconos2 {
+  display: flex;
+  width: 100%;
+  top: 20px;
+  text-align: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.botom-2 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-color: #1ce9ca;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.botom-2:hover {
+  background-color: #15a79b;
+}
+
+.navbar {
+  gap: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.portada {
+  margin-right: 700px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #022220;
+  color: #ffffff;
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  padding-block: 50px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+span {
+  color: #05ffff;
+}/*# sourceMappingURL=style.css.map */

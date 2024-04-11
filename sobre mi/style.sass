@@ -1,0 +1,103 @@
+$px10: 10px
+$px15: $px10 + 5px
+$borde5sb: 5px solid black
+
+@mixin Centro()
+    display: flex
+    flex-direction: column
+    aling-items: center
+    text-align: center
+    gap: 10px
+
+@mixin textos()
+    padding: 20px
+    margin-left: 200px
+    margin-right: 200px
+
+
+@mixin boton()
+    background: (#16eee3)
+    margin: $px10
+    padding: $px10
+    font-size: 20px
+    border-radius: $px15
+    color: #000000
+    border: none
+    text:
+        decoration: none  
+        transform: uppercase
+        align: center
+    font:
+        weight: 800 
+        font-family: "Bebas Neue", sans-serif
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    text-decoration: none
+
+main
+    display: grid
+    width: 100%
+    height: 100vh
+
+body
+    width: 100%
+    font-family: "Bebas Neue", sans-serif
+    background-color:  #01181b
+    display: flex
+    flex-direction: column
+    aling-items: center
+
+.iconos
+    position: relative
+    gap: $px10
+    top: $px10
+
+.sobremi
+    @include textos()
+
+span
+    color: #00ffea
+
+.perfil
+    @include Centro()
+    &_avatar
+        border-radius: 80%
+        width: 230px
+        margin-top: 20px
+
+section
+    color: #ffffff
+    font-size: 25px
+
+
+.navbar
+    gap: 30px
+    padding: 30px
+    display: flex
+    justify-content: center
+    font-size: 23px
+    color: #ffffff
+
+.footer
+    background-color: #001312
+    color: #ffffff
+    justify-content: space-evenly
+    display: flex
+    width: 100%
+    padding-block: 30px
+    text-decoration: none
+    font-size: 20px
+
+.boton
+    @include boton()
+
+.imagen
+    margin-left: 480px
+    margin-top: 10px
+
+.mision
+    @include textos()
+

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: #01181b;
+  display: flex;
+  flex-direction: column;
+  aling-items: center;
+}
+
+.iconos {
+  position: relative;
+  gap: 10px;
+  top: 10px;
+}
+
+.sobremi {
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+span {
+  color: #00ffea;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  aling-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.perfil_avatar {
+  border-radius: 80%;
+  width: 230px;
+  margin-top: 20px;
+}
+
+section {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.navbar {
+  gap: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #001312;
+  color: #ffffff;
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  padding-block: 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.boton {
+  background: #16eee3;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: #000000;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  font-font-family: "Bebas Neue", sans-serif;
+}
+
+.imagen {
+  margin-left: 480px;
+  margin-top: 10px;
+}
+
+.mision {
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}/*# sourceMappingURL=style.css.map */
