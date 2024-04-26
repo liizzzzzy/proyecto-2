@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style type="text/tailwindcss">
+    @layer utilities {
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+    .body {
+    font-family: "Bebas Neue", sans-serif;
+    color: #000000;
+    }
+
+    .header {
+    background-image: url(imagenes/Diseño\ sin\ título.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 101%;
+    height: 700px;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    font-size: 23px;
+    }
+
+    .botom-1 {
+    position: absolute;
+    background-color: #1100ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 23px;
+    }
+
+    .botom-1:hover {
+    background-color: #03135c;
+    }
+
+    .section-1 {
+    background-color: #f1f1f1;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    padding: 80px;
+    margin-left: 0px;
+    }
+
+    .titulos {
+    position: absolute;
+    top: 84px;
+    left: 700px;
+    width: 600px;
+    font-size: 23px;
+    }
+
+    .biografia {
+    font-size: 50px;
+    }
+
+    .iconos {
+    display: flex;
+    position: absolute;
+    top: 680px;
+    left: 670px;
+    width: 400px;
+    height: 0px;
+    align-items: flex-end;
+    text-align: center;
+    }
+
+    .section-2 {
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    padding: 80px;
+    left: 85px;
+    right: 80px;
+    }
+
+    .titulos2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    }
+
+    .iconos2 {
+    display: flex;
+    width: 100%;
+    top: 20px;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    }
+
+    .botom-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #0a20e0;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    }
+
+    .botom-2:hover {
+    background-color: #2a0f9e;
+    }
+
+    .navbar {
+    gap: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .portada {
+    margin-right: 700px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    }
+
+    .footer {
+    background-color: #e0e6e5;
+    color:#1100ff;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    padding-block: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    }
+
+    span {
+    color: #1100ff;
+    }
+
+}  
+
+</style>
+
+</head>
+<body class="body">
+
+    <header class="header">
+        <div data-aos="fade-up">
+            <div  class="animate__animated animate__pulse animate__infinite">
+            <nav class="navbar">
+                <a href="http://127.0.0.1:5500/inicio/index.html">Inicio</a>
+                <a href="http://127.0.0.1:5500/sobre%20mi/index.html">Sobre mi</a>
+                <a href="http://127.0.0.1:5500/proyectos/index.html">Proyectos</a>
+            </nav>
+        </div>
+
+            <div class="portada">
+                <h1 class="animate__animated animate__bounce animate__infinite text-[60px]">Yo soy <span>LIZZY</span></h1>
+                <p>¡Domina el mundo de la programación y crea tus propias páginas web! ¡No busques más! Soy lizzy, programadora y creadora de páginas web, y estoy aquí para ayudarte a alcanzar tus metas.</p>
+                <div class="pt-4">
+                <a href="http://127.0.0.1:5500/sobre%20mi/index.html" class="hover:bg-red-500 botom-1 animate__animated animate__pulse animate__infinite ">Información!</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-1">
+
+        <div>
+        <div class="titulos">
+            <div data-aos="fade-left">
+            <h3>BIOGrafia</h3>
+            <h2 class="biografia"> <span><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=43&pause=1000&color=D7DC01&vCenter=true&random=false&width=435&lines=mi+pasi%C3%B3n+por+la+programaci%C3%B3n" alt="Typing SVG" /></a></span></h2>
+            <p>Mi fascinación por la programación se remonta a los 12 años, cuando incursioné por primera vez en este apasionante mundo. Aunque luego tomé un descanso, el deseo de crear y dar vida a mis ideas me impulsó a retomarlo hace unos meses.</p>
+        <p>Desde entonces, me he dedicado con entusiasmo a aprender y desarrollar mis habilidades como programadora. He realizado diversos cursos online, participado en talleres y proyectos, y he creado algunas páginas web por mi cuenta. Cada paso en este camino ha sido una experiencia enriquecedora que me ha permitido ampliar mis conocimientos y fortalecer mis capacidades.</p>
+    </div>
+    </div>
+            <img data-aos="fade-down-right" data-aos-offset="400"
+            class="shake-trigger shake-slow" src="imagenes/IMG_7334.JPG" alt="" width="500px" height="600px">
+        </div>
+        <div class="iconos">
+
+            <div data-aos="fade-left">
+                <img class="shake-trigger shake-slow" src="imagenes/100-removebg-preview.png" alt="primera imagen" width="150px">
+                <h3 class="animate__animated animate__pulse animate__infinite text-[25px]">Creativa</h3>
+            </div>
+
+            <div data-aos="fade-left">
+                <img class="shake-trigger shake-slow" src="imagenes/100-removebg-preview.png" alt="segunda imagen" width="150px">
+                <h3 class="animate__animated animate__pulse animate__infinite text-[25px]">Responsable</h3>
+            </div>
+
+            <div data-aos="fade-left">
+                <img class="shake-trigger shake-slow" src="imagenes/100-removebg-preview.png" alt="segunda imagen" width="150px">
+                <h3 class="animate__animated animate__pulse animate__infinite text-[25px]">Liderazgo</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div data-aos="fade-left">
+        <div class="titulos2">
+            <h3 class="animate__animated animate__backInDown text-[35px]">Mas de mi</h3>
+            <h2 class="animate__animated animate__pulse animate__infinite text-[35px]"><span>Contribuciones y colaboraciones</span></h2>
+            <p>También he tenido la oportunidad de colaborar en proyectos con otros programadores, una experiencia que me ha permitido aprender de otros y aportar mis propias ideas y soluciones. Disfruto del trabajo en equipo y de la colaboración, ya que creo que juntos podemos lograr grandes cosas..</p>
+        </div>
+    </div>
+
+        <div class="iconos2">
+        <div  data-aos="flip-left">
+            <img class="animate__animated animate__pulse animate__infinite" src="imagenes/pc.png" alt="" width="250px">
+            <h2 class="text-[18px]">LEnguajes dominados</h2>
+            <p class="text-[18px]">Lenguajes de programación: HTML, CSS,</p>
+            <p class="text-[18px]">JavaScript, Python</p>
+        </div>
+
+        <div  data-aos="flip-left">
+            <img class="animate__animated animate__pulse animate__infinite"  src="imagenes/publico.png" alt="" width="250px">
+            <h2 class="text-[18px]">Buenas habilidades,</h2>
+            <p class="text-[18px]">Crecimiento,
+                Innovación,</p><p class="text-[18px]">Pasión,
+                    Colaboración</p>
+        </div>
+
+        <div  data-aos="flip-left">
+            <img class="animate__animated animate__pulse animate__infinite" src="imagenes/libro.png" alt="" width="250px">
+            <h2 class="text-[18px]">Buenos resultados</h2>
+            <p class="text-[18px]">Estoy comprometida con el trabajo</p><p class="text-[18px]">Siempre dispuesta a ayudar.
+        </div>
+    </div>
+<div class="shake-hard">
+    <a href="http://127.0.0.1:5500/proyectos/index.html" class="botom-2"> boton de convulsion</a>
+</div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div  data-aos="zoom-in-right" class="link">
+            <h3>Enlaces</h3>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/inicio/index.html">Inicio</a></li>
+                <li>
+                    <a href="http://127.0.0.1:5500/sobre%20mi/index.html">Sobre mi</a>
+                </li>
+                <li><a href="http://127.0.0.1:5500/proyectos/index.html">proyectos</a></li>
+            </ul>
+        </div>
+
+        <div data-aos="fade-up" class="link">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/abi_lix_/">instagram</a></li>
+                <li>
+                    <a href="https://www.facebook.com/braylizten?locale=es_LA">Facebook</a>
+                </li>
+                <li><a href="https://github.com/liizzzzzy">github</a></li>
+            </ul>
+        </div>
+        <div data-aos="zoom-in-left" class="link">
+            <h3>Contacto</h3>
+            <ul>
+                <li><a href="https://wa.me/+584241462114">Telefono: 0424-146-2114</a></li>
+                <li>Gmail: mujicablizzymar@gmail.com</li>
+            </ul>
+        </div>
+
+</footer>
+
+    
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+    </script>
+</html>
